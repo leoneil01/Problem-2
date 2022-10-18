@@ -23,4 +23,9 @@ namespace Problem2
             Console.WriteLine(construc.age);
         }
     }
+
+    class Program2
+    {
+
+    }
 }
