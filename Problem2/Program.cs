@@ -8,6 +8,9 @@ namespace Problem2
 {
     class Program
     {
+        string name;
+        int age;
+
         static void Main(string[] args)
         {
         }
