@@ -26,6 +26,6 @@ namespace Problem2
 
     class Program2
     {
-
+        public string name;
     }
 }
