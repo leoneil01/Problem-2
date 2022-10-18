@@ -26,7 +26,7 @@ namespace Problem2
             Console.WriteLine(full_name.name);
 
             Program3 value = new Program3(10, 10);
-            Console.WriteLine($"{value.val1} {value.val2}");
+            Console.WriteLine($"First value: {value.val1}, Second value: {value.val2}");
         }
     }
 
