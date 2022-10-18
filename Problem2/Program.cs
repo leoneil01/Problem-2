@@ -35,4 +35,8 @@ namespace Problem2
             name = name1;
         }
     }
+
+    class Program3
+    {
+    }
 }
