@@ -27,6 +27,9 @@ namespace Problem2
 
             Program3 value = new Program3(10, 10);
             Console.WriteLine($"First value: {value.val1}, Second value: {value.val2}");
+
+            int total_val = value.val1 + value.val2;
+            Console.WriteLine($"Total value: {total_val}");
         }
     }
 
