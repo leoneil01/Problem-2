@@ -23,6 +23,7 @@ namespace Problem2
             Console.WriteLine(construc.age);
 
             Program2 full_name = new Program2("Juan Dela Cruz");
+            Console.WriteLine(full_name.name);
         }
     }
 
