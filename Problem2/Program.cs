@@ -18,6 +18,9 @@ namespace Problem2
 
         static void Main(string[] args)
         {
+            Program construc = new Program();
+            Console.WriteLine(construc.name);
+            Console.WriteLine(construc.age);
         }
     }
 }
