@@ -21,15 +21,17 @@ namespace Problem2
             Program construc = new Program();
             Console.WriteLine(construc.name);
             Console.WriteLine(construc.age);
+
+            Program2 full_name = new Program2("Juan Dela Cruz");
         }
     }
 
     class Program2
     {
         public string name;
-        public Program2 (string full_name)
+        public Program2 (string name1)
         {
-            name = full_name;
+            name = name1;
         }
     }
 }
