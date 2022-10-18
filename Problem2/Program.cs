@@ -27,5 +27,9 @@ namespace Problem2
     class Program2
     {
         public string name;
+        public Program2 (string full_name)
+        {
+            name = full_name;
+        }
     }
 }
