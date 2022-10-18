@@ -24,6 +24,8 @@ namespace Problem2
 
             Program2 full_name = new Program2("Juan Dela Cruz");
             Console.WriteLine(full_name.name);
+
+            Program3 value = new Program3(10, 10);
         }
     }
 
