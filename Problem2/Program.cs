@@ -38,5 +38,7 @@ namespace Problem2
 
     class Program3
     {
+        public int val1;
+        public int val2;
     }
 }
