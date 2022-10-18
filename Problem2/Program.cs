@@ -11,6 +11,11 @@ namespace Problem2
         string name;
         int age;
 
+        Program()
+        {
+            Console.WriteLine("Constructor is called: ");
+        }
+
         static void Main(string[] args)
         {
         }
