@@ -31,6 +31,10 @@ namespace Problem2
             int total_val = value.val1 + value.val2;
             Console.WriteLine($"Total value: {total_val}");
         }
+        ~Program()
+        {
+            Console.WriteLine("Object is destroyed");
+        }
     }
 
     class Program2
